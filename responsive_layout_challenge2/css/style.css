@@ -1,0 +1,53 @@
+/* =======================mobile start==================================== */
+@media(max-width:600px){
+    .header{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-column:1/2
+        
+    }
+
+    .icon1{
+        order: 2;
+        margin: 10px;
+        
+        
+    }
+    .icon2{
+        display: none;
+    }
+
+    .social_icons{
+        /* width: 1fr; */
+        display: none;
+    }
+    .nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column: 1/5;
+        order: 3;
+        text-align: center;
+        
+    }
+    .cars{
+        display: none;
+    }
+
+    .reveiws{
+        display: none;
+    }
+
+    .longform{
+        display: none;
+    }
+
+    .youtube_video{
+        margin: 5px;
+    }
+
+}
+/* ==========================mobile end======================================== */
+html body{
+    margin: 0;
+    padding: 0;
+}
