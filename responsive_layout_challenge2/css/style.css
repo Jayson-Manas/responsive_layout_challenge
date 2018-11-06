@@ -71,16 +71,75 @@
 
 /* ==========================mobile end======================================== */
 
+/* ============================tablet start======================================= */
+@media(min-width:768px){
+    .header{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        
+    }
+    .social_icons{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .cars{
+        display: none;
+    }
+    .reveiws{
+        display: none;
+    }
+    .longform{
+        display: none;
+    }
+   
+    .social{
+        text-align: right;
+    }
+    .nav{
+        text-align: center;
+    }
+    .recommend{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px;
+        padding: 20px;
+    }
 
+    
+}
+/* ============================tablet ends======================================= */
+/* ============================desktop start======================================= */
+@media(min-width:993px){
+    .section_3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+       
+    }
+    .recommend{
+        margin: 5px;
+        padding: 5px;
+    }
+    .aside{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .privacy_policy{
+        grid-column: 2/3;
+    }
+}
+/* ============================desktop start======================================= */
 /* ///////////////////////////media query//////////////////////////////////////////////// */
-html body{
+/* html body{ */
     /* margin: 0;
     padding: 0; */
     /* width: 100%; */
-}
+/* } */
 
 img{
-    display: block;
+    display: block; 
     height: auto;
-    width:100%;
+     width:100%;
 }
