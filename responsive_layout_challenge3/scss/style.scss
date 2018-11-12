@@ -1,0 +1,87 @@
+html{
+    background-color: black;
+    color:white;
+    font-family: monospace;
+    
+}
+div{
+    .scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    position: sticky;
+    height: 150px;
+    border: 1mm solid blue;
+}
+
+
+
+    .scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    height: 100px;
+    }
+
+
+    .scrollmenu a:hover {
+    background-color: #777;
+}
+}
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    //margin: 10px;
+    text-align: center;
+    position: -webkit-sticky;
+    position: static;
+    top: 0;
+    background-color: blue;
+    padding: 14px;
+}
+#list{
+    //position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    // padding: 50px;
+    font-size: 20px;
+}
+
+
+.grid_style{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1mm solid blue;
+    padding: 10px;
+}
+.maze_img{
+    width: 300px;
+    height: max-content;
+    padding: 10%;
+}
+#maze_runner{
+    height: 138px;
+}
+.scroll_nav{
+    height: 130px;
+}
+///////////////////mobile////////////
+@media(max-width:767px){
+
+    .grid_style{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+///////////////////end////////////////
+//////////////////tablet/////////////
+@media(min-width:768px)and(max-width:993px){
+    .grid_style{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
